@@ -2,10 +2,10 @@ let currentColor;
 let brushSize = 20;
 
 function setup() {
-  createCanvas(900, 900);
+  createCanvas(1000, 1000);
   background(255);      
   currentColor = color(51);
-  fill(100); // 文字颜色（灰色）
+  fill(255，0，0); // 文字颜色（灰色）
   textSize(16); // 文字大小
   textAlign(CENTER); // 文字居中
   text("这是一个画画游戏", width / 2, 30); 
