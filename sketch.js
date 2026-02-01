@@ -2,7 +2,7 @@ let currentColor;
 let brushSize = 20;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(900, 900);
   background(255);      
   currentColor = color(51);
   fill(100); // 文字颜色（灰色）
