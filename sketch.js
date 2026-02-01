@@ -5,6 +5,11 @@ function setup() {
   createCanvas(400, 400);
   background(255);      
   currentColor = color(51);
+  fill(100); // 文字颜色（灰色）
+  textSize(16); // 文字大小
+  textAlign(CENTER); // 文字居中
+  text("这是一个画画游戏", width / 2, 30); 
+  text("按 R, G, B 换色 | C 清屏 | S 保存", width / 2, 55);
 }
 
 function draw() {
