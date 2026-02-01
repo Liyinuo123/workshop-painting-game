@@ -5,7 +5,7 @@ function setup() {
   createCanvas(1000, 1000);
   background(255);      
   currentColor = color(51);
-  fill(255，0，0); // colour of text
+  fill(255, 0, 0); 
   textSize(16); // size of text
   textAlign(CENTER); // in the center
   text("This is a painting game", width / 2, 30); 
